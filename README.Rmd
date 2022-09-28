@@ -1,0 +1,15 @@
+---
+title: "README"
+author: "MK"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+
+The dataset includes the following files:
+ - "README.Rmd' 
+ - "run_analysis.R" - script with code that cleans the dataset
+ - "CodeBook.Rmd" - describes the variables, the data, and any transformations or work that have been performed to clean up the data
+ - "clean_data.RDS" - dataset after transformation, before grouping or subsetting columns
+ - "mean_grouped.RDS" - dataset grouped by activity and subject and mean calculated for every variable
+ - "mean_std.RDS" - columns that have mean or std in name included
